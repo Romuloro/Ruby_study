@@ -24,3 +24,8 @@ until valor1 >= 2.0
     p valor1
     valor1 += 0.5
 end
+
+def somar_multiplicar(valor1: 12, valor2: 5)
+    (valor1*valor2) + (valor2*valor1)
+end
+p somar_multiplicar(valor1: 1, valor2:10)
